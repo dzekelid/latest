@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Latest
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,10 +18,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar//GetLatestUpdateTimeStamp
-  tags: Latest, , Time, Stamp
+  tags: Market Data,Latest, , Time, Stamp
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestupdatetimestamp-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestupdatetimestamp-get-openapi.md
 - name: Xignite Calendar
   x-api-slug: xignite-calendar
   description: Financial market data on-demand. Xignite financial Web services help
@@ -39,20 +39,20 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetLatestCrossRate
-  tags: Latest, Cross, Rate
+  tags: Market Data,Latest, Cross, Rate
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestcrossrate-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestcrossrate-get-openapi.md
 - name: Xignite Currencies Get Latest Cross Rates
   x-api-slug: xignite-currencies
   description: Returns the latest possible cross rate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetLatestCrossRates
-  tags: Latest, Cross, Rates
+  tags: Market Data,Latest, Cross, Rates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestcrossrates-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestcrossrates-get-openapi.md
 - name: Xignite Currencies
   x-api-slug: xignite-currencies
   description: Financial market data on-demand. Xignite financial Web services help
@@ -70,20 +70,20 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates//GetLatestRecommendationSummaries
-  tags: Latest, Recommendation, Summaries
+  tags: Market Data,Latest, Recommendation, Summaries
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrecommendationsummaries-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrecommendationsummaries-get-openapi.md
 - name: Xignite Fact Set Estimates Get Latest Estimates
   x-api-slug: xignite-fact-set-estimates
   description: Get Latest Estimates
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates//GetLatestEstimates
-  tags: Latest, Estimates
+  tags: Market Data,Latest, Estimates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestestimates-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestestimates-get-openapi.md
 - name: Xignite Fact Set Estimates
   x-api-slug: xignite-fact-set-estimates
   description: Financial market data on-demand. Xignite financial Web services help
@@ -104,7 +104,7 @@ apis:
   tags: Latest, Future, Quote
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequote-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequote-get-openapi.md
 - name: Xignite Global Futures Get Latest Future Quotes
   x-api-slug: xignite-global-futures
   description: Returns latest delayed quotes for multiple future contracts.
@@ -114,7 +114,7 @@ apis:
   tags: Latest, Future, Quotes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequotes-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequotes-get-openapi.md
 - name: Xignite Global Futures Get Latest Front Month Future Quotes
   x-api-slug: xignite-global-futures
   description: Returns latest quotes for front month futures
@@ -124,7 +124,7 @@ apis:
   tags: Latest, Front, Month, Future, Quotes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfrontmonthfuturequotes-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfrontmonthfuturequotes-get-openapi.md
 - name: Xignite Global Futures Get Latest Future Option Quote
   x-api-slug: xignite-global-futures
   description: Returns latest delayed quote for multiple future option.
@@ -134,7 +134,7 @@ apis:
   tags: Latest, Future, Option, Quote
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquote-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquote-get-openapi.md
 - name: Xignite Global Futures Get Latest Future Option Quotes
   x-api-slug: xignite-global-futures
   description: Returns latest delayed quotes for multiple future options.
@@ -144,7 +144,7 @@ apis:
   tags: Latest, Future, Option, Quotes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquotes-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquotes-get-openapi.md
 - name: Xignite Global Futures
   x-api-slug: xignite-global-futures
   description: Financial market data on-demand. Xignite financial Web services help
@@ -162,20 +162,20 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetLatestHistoricalMetalQuote
-  tags: Latest, Historical, Metal, Quote
+  tags: Market Data,Latest, Historical, Metal, Quote
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesthistoricalmetalquote-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesthistoricalmetalquote-get-openapi.md
 - name: Xignite Global Metals Get Latest Historical Metal Quotes
   x-api-slug: xignite-global-metals
   description: Get cross sectional historical metal quotes by a given time.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetLatestHistoricalMetalQuotes
-  tags: Latest, Historical, Metal, Quotes
+  tags: Market Data,Latest, Historical, Metal, Quotes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesthistoricalmetalquotes-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesthistoricalmetalquotes-get-openapi.md
 - name: Xignite Global Metals
   x-api-slug: xignite-global-metals
   description: Financial market data on-demand. Xignite financial Web services help
@@ -193,50 +193,50 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFutureQuote
-  tags: Latest, Future, Quote
+  tags: Market Data,Latest, Future, Quote
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequote-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequote-get-openapi.md
 - name: Xignite Global Real Time Futures Get Latest Future Quotes
   x-api-slug: xignite-global-real-time-futures
   description: Returns latest realtime quotes for multiple future contracts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFutureQuotes
-  tags: Latest, Future, Quotes
+  tags: Market Data,Latest, Future, Quotes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequotes-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequotes-get-openapi.md
 - name: Xignite Global Real Time Futures Get Latest Front Month Future Quotes
   x-api-slug: xignite-global-real-time-futures
   description: Returns latest quotes for front month futures
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFrontMonthFutureQuotes
-  tags: Latest, Front, Month, Future, Quotes
+  tags: Market Data,Latest, Front, Month, Future, Quotes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfrontmonthfuturequotes-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfrontmonthfuturequotes-get-openapi.md
 - name: Xignite Global Real Time Futures Get Latest Future Option Quote
   x-api-slug: xignite-global-real-time-futures
   description: Returns latest realtime quote for multiple future option.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFutureOptionQuote
-  tags: Latest, Future, Option, Quote
+  tags: Market Data,Latest, Future, Option, Quote
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquote-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquote-get-openapi.md
 - name: Xignite Global Real Time Futures Get Latest Future Option Quotes
   x-api-slug: xignite-global-real-time-futures
   description: Returns latest realtime quotes for multiple future options.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFutureOptionQuotes
-  tags: Latest, Future, Option, Quotes
+  tags: Market Data,Latest, Future, Option, Quotes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquotes-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquotes-get-openapi.md
 - name: Xignite Global Real Time Futures
   x-api-slug: xignite-global-real-time-futures
   description: Financial market data on-demand. Xignite financial Web services help
@@ -254,30 +254,30 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks//GetLatestRate
-  tags: Latest, Rate
+  tags: Market Data,Latest, Rate
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrate-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrate-get-openapi.md
 - name: Xignite Interbanks Get Latest LIBOR
   x-api-slug: xignite-interbanks
   description: Returns latest value for a LIBOR rate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks//GetLatestLIBOR
-  tags: Latest, LIBOR
+  tags: Market Data,Latest, LIBOR
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestlibor-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestlibor-get-openapi.md
 - name: Xignite Interbanks Get Latest Rate Family
   x-api-slug: xignite-interbanks
   description: Returns latest values for a rate family.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks//GetLatestRateFamily
-  tags: Latest, Rate, Family
+  tags: Market Data,Latest, Rate, Family
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratefamily-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratefamily-get-openapi.md
 - name: Xignite Interbanks
   x-api-slug: xignite-interbanks
   description: Financial market data on-demand. Xignite financial Web services help
@@ -298,7 +298,7 @@ apis:
   tags: Latest, NAV
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestnav-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestnav-get-openapi.md
 - name: Xignite NAVs Get Latest NAVs
   x-api-slug: xignite-navs
   description: This operation returns the latest NAV information for a list of funds.
@@ -308,7 +308,7 @@ apis:
   tags: Latest, NAVs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestnavs-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestnavs-get-openapi.md
 - name: Xignite NAVs
   x-api-slug: xignite-navs
   description: Financial market data on-demand. Xignite financial Web services help
@@ -326,30 +326,30 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetLatestRate
-  tags: Latest, Rate
+  tags: Market Data,Latest, Rate
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrate-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrate-get-openapi.md
 - name: Xignite Rates Get Latest Rate Special
   x-api-slug: xignite-rates
   description: Returns latest value for a rate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetLatestRateSpecial
-  tags: Latest, Rate, Special
+  tags: Market Data,Latest, Rate, Special
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratespecial-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratespecial-get-openapi.md
 - name: Xignite Rates Get Latest Rate Family
   x-api-slug: xignite-rates
   description: Returns latest values for a rate family.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetLatestRateFamily
-  tags: Latest, Rate, Family
+  tags: Market Data,Latest, Rate, Family
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratefamily-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratefamily-get-openapi.md
 - name: Xignite Rates
   x-api-slug: xignite-rates
   description: Financial market data on-demand. Xignite financial Web services help
@@ -367,10 +367,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics//GetLatestTopicData
-  tags: Latest, Topic, Data
+  tags: Market Data,Latest, Topic, Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesttopicdata-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesttopicdata-get-openapi.md
 - name: Xignite Statistics
   x-api-slug: xignite-statistics
   description: Financial market data on-demand. Xignite financial Web services help
@@ -383,7 +383,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -443,6 +443,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []
