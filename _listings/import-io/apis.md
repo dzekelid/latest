@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-impor
 x-kinRank: "9"
 x-alexaRank: "87026"
 tags: Latest
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/import-io/apis.md
 specificationVersion: "0.14"
 apis:
