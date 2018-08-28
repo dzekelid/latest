@@ -9,37 +9,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-bloc
 x-kinRank: "8"
 x-alexaRank: "3499"
 tags: Latest
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/blockchain/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Blockchain Info Latest Block
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Latest Block
+  x-api-slug: latestblock-get
   description: Gets the latest block.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///latestblock
-  tags: Blockchain,Latest
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/blockchain/latestblock-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/blockchain/latestblock-get-openapi.md
-- name: Blockchain Info
-  x-api-slug: blockchain-info
-  description: With the largest bitcoin wallet platform in the world, Blockchains
-    software has powered over 100M transactions and empowered users in 130 countries
-    across the globe to transact quickly and without costly intermediaries. We also
-    offers tools for develo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
-  humanURL: https://blockchain.info
-  baseURL: https://blockchain.info/
-  tags: Latest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/blockchain/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://blizzard.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://blockchain.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/blockchain-info
 - type: x-documentation

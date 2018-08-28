@@ -15,6 +15,26 @@ produces:
 consumes:
 - application/json
 paths:
+  /GetLatestUpdateTimeStamp:
+    get:
+      summary: Get Latest Update Time Stamp
+      description: Get latest update TimeStamp for this service.
+      operationId: postGetlatestupdatetimestamp
+      x-api-path-slug: getlatestupdatetimestamp-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Latest
+      - ""
+      - Time
+      - Stamp
   /GetLatestCrossRate:
     get:
       summary: Get Latest Cross Rate

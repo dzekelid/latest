@@ -6,50 +6,42 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-impor
 x-kinRank: "9"
 x-alexaRank: "87026"
 tags: Latest
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/import-io/apis.md
 specificationVersion: "0.14"
 apis:
-- name: import.io Get Extractor Extractorid Csv Latest
-  x-api-slug: import-io
+- name: import.io - Get Extractor Extractorid Csv Latest
+  x-api-slug: extractorextractoridcsvlatest-get
   description: Get the latest crawl run results as a csv.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-import-io.jpg
   humanURL: https://www.import.io/
-  baseURL: https://schedule.import.io////extractor/{extractorId}/csv/latest
-  tags: Extractor,ExtractorId,Csv,Latest
+  baseURL: https://schedule.import.io//
+  tags: Scraping, API United Kingdom, Stack Network, SaaS, Technology, API Provider,
+    API Service Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/import-io/extractorextractoridcsvlatest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/import-io/extractorextractoridcsvlatest-get-openapi.md
-- name: import.io Get Extractor Extractorid Json Latest
-  x-api-slug: import-io
+- name: import.io - Get Extractor Extractorid Json Latest
+  x-api-slug: extractorextractoridjsonlatest-get
   description: Get the latest crawl run results as json.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-import-io.jpg
   humanURL: https://www.import.io/
-  baseURL: https://schedule.import.io////extractor/{extractorId}/json/latest
-  tags: Extractor,ExtractorId,Json,Latest
+  baseURL: https://schedule.import.io//
+  tags: Scraping, API United Kingdom, Stack Network, SaaS, Technology, API Provider,
+    API Service Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/import-io/extractorextractoridjsonlatest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/import-io/extractorextractoridjsonlatest-get-openapi.md
-- name: import.io
-  x-api-slug: import-io
-  description: import.io is a service that allows users to find data sources on the
-    web for extraction, use, connect to, and remix the data for websites and applications.The
-    import.io API allows developers to access and integrate the functionality of import.io
-    with other applications. Some example API methods include retrieving data, importing
-    data, extracting data, and managing account information.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-import-io.jpg
-  humanURL: https://www.import.io/
-  baseURL: https://schedule.import.io//
-  tags: Latest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/import-io/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://iex.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://import.io.stack.network
 - type: x-blog
   url: http://blog.import.io/
 - type: x-crunchbase

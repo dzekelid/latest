@@ -7,384 +7,382 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Latest
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Calendar Get Latest Update Time Stamp
-  x-api-slug: xignite-calendar
+- name: Xignite Calendar - Get Latest Update Time Stamp
+  x-api-slug: getlatestupdatetimestamp-get
   description: Get latest update TimeStamp for this service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar//GetLatestUpdateTimeStamp
-  tags: Market Data,Latest, , Time, Stamp
+  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestupdatetimestamp-get-openapi.md
-- name: Xignite Calendar
-  x-api-slug: xignite-calendar
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar
-  tags: Latest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
-- name: Xignite Currencies Get Latest Cross Rate
-  x-api-slug: xignite-currencies
+- name: Xignite Currencies - Get Latest Cross Rate
+  x-api-slug: getlatestcrossrate-get
   description: Returns the latest possible cross rate.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetLatestCrossRate
-  tags: Market Data,Latest, Cross, Rate
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestcrossrate-get-openapi.md
-- name: Xignite Currencies Get Latest Cross Rates
-  x-api-slug: xignite-currencies
-  description: Returns the latest possible cross rate.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetLatestCrossRates
-  tags: Market Data,Latest, Cross, Rates
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestcrossrates-get-openapi.md
-- name: Xignite Currencies
-  x-api-slug: xignite-currencies
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
-  tags: Latest
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
-- name: Xignite Fact Set Estimates Get Latest Recommendation Summaries
-  x-api-slug: xignite-fact-set-estimates
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestcrossrate-get-openapi.md
+- name: Xignite Currencies - Get Latest Cross Rates
+  x-api-slug: getlatestcrossrates-get
+  description: Returns the latest possible cross rate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestcrossrates-get-openapi.md
+- name: Xignite Fact Set Estimates - Get Latest Recommendation Summaries
+  x-api-slug: getlatestrecommendationsummaries-get
   description: Get Latest Recommendation Summary
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates//GetLatestRecommendationSummaries
-  tags: Market Data,Latest, Recommendation, Summaries
+  baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrecommendationsummaries-get-openapi.md
-- name: Xignite Fact Set Estimates Get Latest Estimates
-  x-api-slug: xignite-fact-set-estimates
+- name: Xignite Fact Set Estimates - Get Latest Estimates
+  x-api-slug: getlatestestimates-get
   description: Get Latest Estimates
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates//GetLatestEstimates
-  tags: Market Data,Latest, Estimates
+  baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestestimates-get-openapi.md
-- name: Xignite Fact Set Estimates
-  x-api-slug: xignite-fact-set-estimates
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates
-  tags: Latest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
-- name: Xignite Global Futures Get Latest Future Quote
-  x-api-slug: xignite-global-futures
+- name: Xignite Global Futures - Get Latest Future Quote
+  x-api-slug: getlatestfuturequote-get
   description: Returns the latest delayed quote for a future contract.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures//GetLatestFutureQuote
-  tags: Latest, Future, Quote
+  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequote-get-openapi.md
-- name: Xignite Global Futures Get Latest Future Quotes
-  x-api-slug: xignite-global-futures
+- name: Xignite Global Futures - Get Latest Future Quotes
+  x-api-slug: getlatestfuturequotes-get
   description: Returns latest delayed quotes for multiple future contracts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures//GetLatestFutureQuotes
-  tags: Latest, Future, Quotes
+  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequotes-get-openapi.md
-- name: Xignite Global Futures Get Latest Front Month Future Quotes
-  x-api-slug: xignite-global-futures
+- name: Xignite Global Futures - Get Latest Front Month Future Quotes
+  x-api-slug: getlatestfrontmonthfuturequotes-get
   description: Returns latest quotes for front month futures
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures//GetLatestFrontMonthFutureQuotes
-  tags: Latest, Front, Month, Future, Quotes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfrontmonthfuturequotes-get-openapi.md
-- name: Xignite Global Futures Get Latest Future Option Quote
-  x-api-slug: xignite-global-futures
-  description: Returns latest delayed quote for multiple future option.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures//GetLatestFutureOptionQuote
-  tags: Latest, Future, Option, Quote
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquote-get-openapi.md
-- name: Xignite Global Futures Get Latest Future Option Quotes
-  x-api-slug: xignite-global-futures
-  description: Returns latest delayed quotes for multiple future options.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures//GetLatestFutureOptionQuotes
-  tags: Latest, Future, Option, Quotes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquotes-get-openapi.md
-- name: Xignite Global Futures
-  x-api-slug: xignite-global-futures
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures
-  tags: Latest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
-- name: Xignite Global Metals Get Latest Historical Metal Quote
-  x-api-slug: xignite-global-metals
-  description: Get historical metal quote by a given time.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetLatestHistoricalMetalQuote
-  tags: Market Data,Latest, Historical, Metal, Quote
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesthistoricalmetalquote-get-openapi.md
-- name: Xignite Global Metals Get Latest Historical Metal Quotes
-  x-api-slug: xignite-global-metals
-  description: Get cross sectional historical metal quotes by a given time.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetLatestHistoricalMetalQuotes
-  tags: Market Data,Latest, Historical, Metal, Quotes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesthistoricalmetalquotes-get-openapi.md
-- name: Xignite Global Metals
-  x-api-slug: xignite-global-metals
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
-  tags: Latest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
-- name: Xignite Global Real Time Futures Get Latest Future Quote
-  x-api-slug: xignite-global-real-time-futures
-  description: Returns the latest realtime quote for a future contract.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFutureQuote
-  tags: Market Data,Latest, Future, Quote
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequote-get-openapi.md
-- name: Xignite Global Real Time Futures Get Latest Future Quotes
-  x-api-slug: xignite-global-real-time-futures
-  description: Returns latest realtime quotes for multiple future contracts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFutureQuotes
-  tags: Market Data,Latest, Future, Quotes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequotes-get-openapi.md
-- name: Xignite Global Real Time Futures Get Latest Front Month Future Quotes
-  x-api-slug: xignite-global-real-time-futures
-  description: Returns latest quotes for front month futures
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFrontMonthFutureQuotes
-  tags: Market Data,Latest, Front, Month, Future, Quotes
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfrontmonthfuturequotes-get-openapi.md
-- name: Xignite Global Real Time Futures Get Latest Future Option Quote
-  x-api-slug: xignite-global-real-time-futures
-  description: Returns latest realtime quote for multiple future option.
+- name: Xignite Global Futures - Get Latest Future Option Quote
+  x-api-slug: getlatestfutureoptionquote-get
+  description: Returns latest delayed quote for multiple future option.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFutureOptionQuote
-  tags: Market Data,Latest, Future, Option, Quote
+  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquote-get-openapi.md
-- name: Xignite Global Real Time Futures Get Latest Future Option Quotes
-  x-api-slug: xignite-global-real-time-futures
-  description: Returns latest realtime quotes for multiple future options.
+- name: Xignite Global Futures - Get Latest Future Option Quotes
+  x-api-slug: getlatestfutureoptionquotes-get
+  description: Returns latest delayed quotes for multiple future options.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//GetLatestFutureOptionQuotes
-  tags: Market Data,Latest, Future, Option, Quotes
+  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquotes-get-openapi.md
-- name: Xignite Global Real Time Futures
-  x-api-slug: xignite-global-real-time-futures
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
+- name: Xignite Global Metals - Get Latest Historical Metal Quote
+  x-api-slug: getlatesthistoricalmetalquote-get
+  description: Get historical metal quote by a given time.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesthistoricalmetalquote-get-openapi.md
+- name: Xignite Global Metals - Get Latest Historical Metal Quotes
+  x-api-slug: getlatesthistoricalmetalquotes-get
+  description: Get cross sectional historical metal quotes by a given time.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesthistoricalmetalquotes-get-openapi.md
+- name: Xignite Global Real Time Futures - Get Latest Future Quote
+  x-api-slug: getlatestfuturequote-get
+  description: Returns the latest realtime quote for a future contract.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
-  tags: Latest
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
-- name: Xignite Interbanks Get Latest Rate
-  x-api-slug: xignite-interbanks
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequote-get-openapi.md
+- name: Xignite Global Real Time Futures - Get Latest Future Quotes
+  x-api-slug: getlatestfuturequotes-get
+  description: Returns latest realtime quotes for multiple future contracts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfuturequotes-get-openapi.md
+- name: Xignite Global Real Time Futures - Get Latest Front Month Future Quotes
+  x-api-slug: getlatestfrontmonthfuturequotes-get
+  description: Returns latest quotes for front month futures
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfrontmonthfuturequotes-get-openapi.md
+- name: Xignite Global Real Time Futures - Get Latest Future Option Quote
+  x-api-slug: getlatestfutureoptionquote-get
+  description: Returns latest realtime quote for multiple future option.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquote-get-openapi.md
+- name: Xignite Global Real Time Futures - Get Latest Future Option Quotes
+  x-api-slug: getlatestfutureoptionquotes-get
+  description: Returns latest realtime quotes for multiple future options.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestfutureoptionquotes-get-openapi.md
+- name: Xignite InterBanks - Get Latest Rate
+  x-api-slug: getlatestrate-get
   description: Returns latest value for a rate.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks//GetLatestRate
-  tags: Market Data,Latest, Rate
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrate-get-openapi.md
-- name: Xignite Interbanks Get Latest LIBOR
-  x-api-slug: xignite-interbanks
-  description: Returns latest value for a LIBOR rate.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks//GetLatestLIBOR
-  tags: Market Data,Latest, LIBOR
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestlibor-get-openapi.md
-- name: Xignite Interbanks Get Latest Rate Family
-  x-api-slug: xignite-interbanks
-  description: Returns latest values for a rate family.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks//GetLatestRateFamily
-  tags: Market Data,Latest, Rate, Family
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratefamily-get-openapi.md
-- name: Xignite Interbanks
-  x-api-slug: xignite-interbanks
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks
-  tags: Latest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
-- name: Xignite NAVs Get Latest NAV
-  x-api-slug: xignite-navs
-  description: This operation returns the latest NAV information for a funds.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://navs.xignite.com/v2/xNAVs.json/XigniteNAVs//GetLatestNAV
-  tags: Latest, NAV
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestnav-get-openapi.md
-- name: Xignite NAVs Get Latest NAVs
-  x-api-slug: xignite-navs
-  description: This operation returns the latest NAV information for a list of funds.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://navs.xignite.com/v2/xNAVs.json/XigniteNAVs//GetLatestNAVs
-  tags: Latest, NAVs
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestnavs-get-openapi.md
-- name: Xignite NAVs
-  x-api-slug: xignite-navs
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://navs.xignite.com/v2/xNAVs.json/XigniteNAVs
-  tags: Latest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
-- name: Xignite Rates Get Latest Rate
-  x-api-slug: xignite-rates
-  description: Returns latest value for a rate.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetLatestRate
-  tags: Market Data,Latest, Rate
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrate-get-openapi.md
-- name: Xignite Rates Get Latest Rate Special
-  x-api-slug: xignite-rates
-  description: Returns latest value for a rate.
+- name: Xignite InterBanks - Get Latest LIBOR
+  x-api-slug: getlatestlibor-get
+  description: Returns latest value for a LIBOR rate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetLatestRateSpecial
-  tags: Market Data,Latest, Rate, Special
+  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratespecial-get-openapi.md
-- name: Xignite Rates Get Latest Rate Family
-  x-api-slug: xignite-rates
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestlibor-get-openapi.md
+- name: Xignite InterBanks - Get Latest Rate Family
+  x-api-slug: getlatestratefamily-get
   description: Returns latest values for a rate family.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetLatestRateFamily
-  tags: Market Data,Latest, Rate, Family
+  baseURL: https://www.xignite.com/xInterBanks.json/XigniteInterBanks
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratefamily-get-openapi.md
-- name: Xignite Rates
-  x-api-slug: xignite-rates
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
+- name: Xignite NAVs - Get Latest NAV
+  x-api-slug: getlatestnav-get
+  description: This operation returns the latest NAV information for a funds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://navs.xignite.com/v2/xNAVs.json/XigniteNAVs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestnav-get-openapi.md
+- name: Xignite NAVs - Get Latest NAVs
+  x-api-slug: getlatestnavs-get
+  description: This operation returns the latest NAV information for a list of funds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://navs.xignite.com/v2/xNAVs.json/XigniteNAVs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestnavs-get-openapi.md
+- name: Xignite Rates - Get Latest Rate
+  x-api-slug: getlatestrate-get
+  description: Returns latest value for a rate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates
-  tags: Latest
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
-- name: Xignite Statistics Get Latest Topic Data
-  x-api-slug: xignite-statistics
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestrate-get-openapi.md
+- name: Xignite Rates - Get Latest Rate Special
+  x-api-slug: getlatestratespecial-get
+  description: Returns latest value for a rate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratespecial-get-openapi.md
+- name: Xignite Rates - Get Latest Rate Family
+  x-api-slug: getlatestratefamily-get
+  description: Returns latest values for a rate family.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatestratefamily-get-openapi.md
+- name: Xignite Statistics - Get Latest Topic Data
+  x-api-slug: getlatesttopicdata-get
   description: Get lastest value for a topic.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics//GetLatestTopicData
-  tags: Market Data,Latest, Topic, Data
+  baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/getlatesttopicdata-get-openapi.md
-- name: Xignite Statistics
-  x-api-slug: xignite-statistics
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics
-  tags: Latest
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/latest/master/_listings/xignite/openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies

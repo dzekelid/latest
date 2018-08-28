@@ -16,6 +16,27 @@ produces:
 consumes:
 - application/json
 paths:
+  /courses/{course_id}/pages/url/revisions/latest:
+    get:
+      summary: Show revision
+      description: Show revision.
+      operationId: show-revision
+      x-api-path-slug: coursescourse-idpagesurlrevisionslatest-get
+      parameters:
+      - in: query
+        name: summary
+        description: If set, exclude page content from results
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Pages
+      - Url
+      - Revisions
+      - Latest
   /groups/{group_id}/pages/url/revisions/latest:
     get:
       summary: Show revision
